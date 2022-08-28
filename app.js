@@ -1,18 +1,5 @@
 'use strict';
 
-const CONFIGURATION = {
-    "locations": [
-        {"title":"University of Wisconsin-Madison","address1":"Madison","address2":"WI, USA","coords":{"lat":43.07551835095971,"lng":-89.40132951049803},"placeId":"ChIJHUh_CpWsB4gRZDpzkeBl4Mk"}
-    ],
-    "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17,"mapId":""},
-    "mapsApiKey": "AIzaSyBV7nvHg27tFPxwBoQ3whphGBAE9h742mI",
-    "capabilities": {"input":true,"autocomplete":false,"directions":false,"distanceMatrix":false,"details":false,"actions":false}
-    };
-
-    function initMap() {
-    new LocatorPlus(CONFIGURATION);
-    }
-
 /** Hide a DOM element. */
 function hideElement(el) {
   el.style.display = 'none';
